@@ -24,6 +24,7 @@ h1{
 .bigbox{
     display: flex;
     justify-content: space-between;
+    /*flex-wrap: wrap;*/
 }
 .box{
     width: 240px;

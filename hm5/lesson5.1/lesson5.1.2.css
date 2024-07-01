@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.active{
+    color: #407e7e;
+}
 header{
     font-family: "Inter", sans-serif;
     height: 10vh;
@@ -34,3 +37,4 @@ header nav ul a:hover{
 header div{
     text-align: center;
 }
+/*-----------------------------------*/
