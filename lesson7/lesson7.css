@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.top-section{
+    height: 100vh;
+    background-image: url("img/lesson7/image4-3.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem-ipsum{
+    width: 1058.4px;
+    height: 392.8px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.lorem-ipsum div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    font-family: "KoHo", sans-serif;
+}
+.lorem-ipsum div h2{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+}
+.lorem-ipsum div p{
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+}
+.lorem-ipsum button{
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "KoHo", sans-serif;
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.mid-section{
+    height: 100vh;
+    background-image: url("img/lesson7/Rectangle4.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abstract div{
+    margin: 110px 282px 86px 281px;
+}
+iframe{
+    width: 49.427vw;
+    height: 53.3vh;
+    margin: 105px 282px 0 281px;
+}
+.nature p{
+    width: 49.427vw;
+    height: 18.3vh;
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "KoHo", sans-serif;
+}
+.rest-section{
+    height: 100vh;
+    background-image: url("img/lesson7/Rectangle 19.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "KoHo", sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rest-section div div{
+    width: 23.625vw;
+    height: 70vh;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rest-section div div img{
+    width: 21.281vw;
+    height: 21.4vh;
+    margin: 25px 22px 32px 23px;
+}
+.rest-section div div h2{
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+.rest-section div div p{
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+}
+.top{
+    margin: 62px 0 0 0;
+}
+.rest-section button{
+    margin: 25px 0 104px 0;
+    width: 21.302vw;
+    height: 7.6vh;
+    font-family: "KoHo", sans-serif;
+    color: #6B6666;
+    font-size: 35px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+
+
+
+
+
