@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #A4A4A4;
+        }
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+        div{
+    display: flex;
+    /*justify-content: flex-start;*/
+    align-items: center;
+    margin-top: 30%;
+    background-color: white;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 10px;
+            flex-direction: column;
+
+        }
+h4{
+    font-size: 30px;
+    background-color: #9CAFAA;
+    padding: 20px 0;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    /*border-bottom: 3px;*/
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    color: black;
+    gap: 15px;
+    background-color: white;
+}
+        button{
+            font-size: 20px;
+            border-radius: 10px 10px 10px 10px ;
+            width: 10vw;
+            height: 5vh;
+            margin-top: 10px;
+            transition: 1s;
+            background-color: #D9D9D9;
+            margin-left: 80px;
+            border: #7b7777 2px solid;
+        }
+        button:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            background-color: #7b7777;
+        }
+        input{
+            font-size: 30px;
+            display: block;
+            background-color: white;
+
+        }
+        .vw{
+            width: 30vw;
+            border: black 1px solid;
+        }
+        label{
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        label::before {
+            content: "Запам'ятати мене ";
+            margin-right: 3px;
+        }
+        label input {
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <h4> Вхід в особистий кабінет </h4>
+    <form>
+        <input class="vw" type="email" name="email" placeholder="Логін або email">
+        <input class="vw" type="text" name="password" placeholder="Пароль">
+        <label> <input type="checkbox" name="done">
+<!--            Запамятати мене-->
+            <button>Вхід</button>
+        </label>
+    </form>
+
+
+</div>
+
+</body>
+</html>
