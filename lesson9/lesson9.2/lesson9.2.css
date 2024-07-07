@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+div{
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 50vh;
+    flex-direction: column;
+    box-shadow: 44px 43px 81px -25px rgba(0,0,0,0.75);
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.name{
+    width: 150px;
+    height: 35px;
+   /*margin-left: 20px;*/
+}
+.email{
+    width: 300px;
+    height: 35px;
+}
+input{
+    border: solid 1px darkgrey;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+button{
+    background-color: #e1e189;
+    width: 300px;
+    height: 35px;
+    border: solid #ecec40 2px;
+    transition: 1s;
+}
+button:hover{
+    transition: 2s;
+    transform: scale(0.8);
+}
+p{
+    margin: 0 40px 0 40px;
+}
+span{
+    color: darkgray;
+}
