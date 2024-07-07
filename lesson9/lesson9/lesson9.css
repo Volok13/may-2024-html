@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border: black 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.second{
+    width: 400px;
+    height: 80px;
+    border: black 1px solid;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+p a{
+    text-decoration: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+button{
+    border: 1px solid #7ac4df;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #7ac4df;
+    width: 300px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: 1s;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: gray solid 1px;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.logo{
+    width: 250px;
+    height: 120px;
+    margin: 20px 0 15px 0;
+}
+.facebook{
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+}
+.face a{
+    color: #1c1caa;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.password a{
+    color: #02025e;
+}
+.gray{
+    color: darkgrey;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.two a{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #88bcda;
+}
