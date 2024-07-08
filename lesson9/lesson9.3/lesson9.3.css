@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9CAFAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 30vw;
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+    background-color: #EEEEEE;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    display: flex;
+    width: 30vw;
+    height: 8vh;
+    /*margin-left: 2vw;*/
+    border: #C7C8CC 1px solid;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 15px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+}
+span{
+    margin-left: 3px;
+    color: darkgray;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+}
+
+input{
+    width: 28vw;
+    height: 5vh;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    border: #787A91 2px solid;
+}
+button{
+   width: 15vw;
+    height: 5vh;
+    border: #ecec9b 2px solid;
+    background-color: #d8d8dc;
+    transition: 1s;
+    position: absolute;
+    margin: 220px 10px 20px 160px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 8px 8px 8px 8px;
+
+
+}
+button:hover{
+    transition: 1.5s;
+    transform: scale(0.9);
+    background-color: #9CAFAA;
+}
