@@ -54,7 +54,7 @@ section img{
     transition: 1s;
 }
 section img:hover{
-    transition: 2s;
+    transition: 2ms;
     transform: scale(0.9);
 }
 
