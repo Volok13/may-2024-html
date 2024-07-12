@@ -21,13 +21,9 @@ ul{
     align-items: center;
     gap: 35px;
     text-decoration: none;
-    /*justify-content: flex-end;*/
-    /*align-items: flex-end;*/
 }
 nav ul li a{
     display: flex;
-    /*justify-content: flex-end;*/
-    /*align-items: flex-end;*/
     color: #000;
     text-decoration: none;
 
@@ -67,10 +63,6 @@ main{
     animation-iteration-count: initial;
     animation-fill-mode: none;
 
-}
-main img{
-    animation: appear 1s ease;
-    /*animation: img 1s linear;*/
 }
 .first{
     position: relative;
@@ -136,8 +128,7 @@ section{
 @keyframes down {
     0%{
         opacity: 0;
-        margin-top: -400px;
-        /*transform: scale(1.1);*/
+        margin-top: 500px;
     }
     80%{
         opacity: 0;
@@ -147,8 +138,7 @@ section{
         }
     100%{
         opacity: 1;
-        margin-top: 300px;
-        /*transform: scale(1);*/
+        margin-top: 100px;
         }
     }
 @keyframes img {
