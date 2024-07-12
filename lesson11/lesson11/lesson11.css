@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F5F5F7;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    text-decoration: none;
+    /*justify-content: flex-end;*/
+    /*align-items: flex-end;*/
+}
+nav ul li a{
+    display: flex;
+    /*justify-content: flex-end;*/
+    /*align-items: flex-end;*/
+    color: #000;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    animation: left 0.2s linear 1;
+}
+header div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+header div span{
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 11.813px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 78px;
+    animation-name: img;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    animation-fill-mode: none;
+
+}
+main img{
+    animation: appear 1s ease;
+    /*animation: img 1s linear;*/
+}
+.first{
+    position: relative;
+    display: flex;
+    width: 1039px;
+    height: 67px;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px; /* 100% */
+    letter-spacing: -1.44px;
+    margin: 68px auto 26px auto;
+    /*animation-name: down;*/
+    /*animation-duration: 2s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-delay: 0;*/
+    /*animation-iteration-count: initial;*/
+    /*animation-fill-mode: none;*/
+}
+section{
+    animation-name: down;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+    animation-fill-mode: none;
+}
+.text{
+    display: flex;
+    width: 975.81px;
+    /*height: 112px;*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #86868B;
+    text-align: center;
+    font-size: 21.563px;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    margin: 52px auto 80px auto;
+    /*animation-name: down;*/
+    /*animation-duration: 2s;*/
+    /*animation-timing-function: linear;*/
+    /*animation-delay: 0;*/
+    /*animation-iteration-count: initial;*/
+    /*animation-fill-mode: none;*/
+}
+@keyframes left {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+
+
+@keyframes down {
+    0%{
+        opacity: 0;
+        margin-top: -400px;
+        /*transform: scale(1.1);*/
+    }
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+        }
+    100%{
+        opacity: 1;
+        margin-top: 300px;
+        /*transform: scale(1);*/
+        }
+    }
+@keyframes img {
+   0% {
+       opacity: 0;
+       margin-top: 0;
+       transform: scale(1.1);
+   }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        margin-top: 5%;
+        transform: scale(1);
+    }
+
+}
+
+
+
