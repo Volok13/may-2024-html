@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+table{
+    height: 400px;
+    margin-top: 20%;
+}
+th{
+    font-size: 20px;
+    padding: 15px;
+
+}
+.Record{
+    width: 400px;
+    padding: 15px;
+}
+.holder{
+    width: 200px;
+}
+.country{
+    width: 200px;
+}
+.details{
+    width: 400px;
+}
+.gray{
+    background-color: #696969;
+    font-size: 20px;
+    color: white;
+}
+.DarkGrey{
+    background-color: #A9A9A9;
+    transition: background-color 1s ;
+}
+.LightGrey{
+    background-color: #D3D3D3;
+    transition: background-color 1s;
+}
+.DarkGrey:hover{
+    background-color: #808080;
+}
+.LightGrey:hover{
+    background-color: #C0C0C0;
+}
