@@ -128,6 +128,9 @@ video {
     font-size: 20px;
     font-weight: 500;
 }
+input:focus{
+    outline: none;
+}
 /*@keyframes section{*/
 /*    from{*/
 /*        opacity: 0.8;*/
