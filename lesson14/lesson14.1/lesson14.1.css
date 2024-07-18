@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F6F4;
+}
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*--------header---------*/
+
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    nav>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 40px;
+    }
+    nav>ul>li{
+        position: relative;
+    }
+    nav>ul>li>a{
+        text-decoration: none;
+        color: #333;
+        font-family: "Taviraj", serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        padding: 10px 0;
+
+    }
+    .dropdown{
+        display: none;
+        position: absolute;
+        width: 100px;
+        background-color: #fff;
+        list-style-type: none;
+}
+    .dropdown a{
+        text-decoration: none;
+        display: block;
+        color: #333;
+        padding: 4px 0;
+    }
+    .dropdown a:hover{
+        background-color: #C7C8CC;
+    }
+    nav>ul>li:hover .dropdown{
+        display: block;
+    }
+
+
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: initial;
+
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header div img{
+    margin: 42px 186px 96px auto;
+    width: 178px;
+    height: 22px;
+}
+header>nav>ul>li{
+    margin: 42px auto 90px auto;
+}
+.first{
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first div img{
+    width: 325px;
+    height: 467px;
+    position: relative;
+}
+
+.first div h2{
+    width: 413px;
+    height: 160px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin: 56px 317px 0 56px;
+}
+.first div p{
+    width: 529px;
+    height: 66px;
+    font-family: "Nunito", sans-serif;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    margin: 32px 201px 79px 56px;
+}
+.first div button{
+    width: 208px;
+    height: 62px;
+    flex-shrink: 0;
+    background: #D84727;
+    margin: 0 522px 50px 56px;
+    border: none;
+}
+.first div button a{
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+
+}
+/*------------second-----------*/
+.second{
+    width: 100%;
+    height: 447px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second>h3{
+    white-space: nowrap;
+    width: 259px;
+    height: 40px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    position: absolute;
+    left: auto;
+    right: 66%;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.Singo{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 248px;
+}
+.Ebony{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 248px;
+}
+.Rakai{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 248px;
+}
+.Way{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 248px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 17px;
+    top: -32px;
+    z-index: 1;
+    width: 221px;
+    height: 221px;
+    /*background: url(<path-to-image>) lightgray 50% / cover no-repeat;*/
+}
+h4{
+    width: 141px;
+    height: 32px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 32px;
+    margin-top: 213px;
+    display: flex;
+    white-space: nowrap;
+    margin-left: 24px;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 626px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.three h3{
+    white-space: nowrap;
+    width: 228px;
+    height: 40px;
+    margin: 539px 178px 181px auto;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.three .text-two{
+    width: 163px;
+    height: 40px;
+    margin: 0 241px 16px auto;
+    color: #777;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.three .text-three{
+    width: 350px;
+    height: 96px;
+    margin: 0 54px auto auto;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+.img-two{
+    position: relative;
+    top: 300px;
+    width: 627.536px;
+    height: 626px;
+    flex-shrink: 0;
+    /*background: url(<path-to-image>) lightgray 50% / cover no-repeat;*/
+}
+.img-two img{
+    position: relative;
+    z-index: 1;
+    top: 101px;
+}
+
+
+
+

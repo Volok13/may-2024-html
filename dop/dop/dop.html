@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: dimgrey;
+    }
+    nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #9CAFAA;
+    }
+    nav>ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      gap: 20px;
+
+    }
+    nav>ul>li{
+      position: relative;
+    }
+    nav>ul>li>a{
+      text-decoration: none;
+      color: black;
+      display: block;
+      padding: 10px 0;
+
+    }
+    .dropdown{
+      display: none;
+      position: absolute;
+      width: 100px;
+      background-color: #787A91;
+      list-style-type: none;
+    }
+    .dropdown a{
+      text-decoration: none;
+      display: block;
+      color: black;
+      padding: 4px 0;
+    }
+    .dropdown a:hover{
+      background-color: #3F50E7;
+    }
+    nav>ul>li:hover .dropdown{
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a>
+    <ul class="dropdown">
+      <li><a href="#">lorem</a></li>
+      <li><a href="#">lorem</a></li>
+      <li><a href="#">lorem</a></li>
+    </ul>
+    </li>
+    <li><a href="#">lorem</a></li>
+
+  </ul>
+</nav>
+</body>
+</html>
