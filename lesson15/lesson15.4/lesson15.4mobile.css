@@ -4,7 +4,15 @@
         height: 257px;
         margin-bottom: 20px;
     }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 700px;
+    }
     div{
+        /*width: 343px;*/
+        /*height: 332px;*/
         display: flex;
         justify-content: center;
         align-items: center;
