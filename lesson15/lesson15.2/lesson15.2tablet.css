@@ -34,31 +34,10 @@
     header{
         margin: 10px auto 10px auto ;
     }
-    /*section{*/
-    /*    width: 100%;*/
-    /*    display: flex;*/
-    /*    justify-content: initial;*/
-    /*    align-items: initial;*/
-    /*}*/
-    /*section > div {*/
-    /*    transform: rotate(90deg);*/
-    /*}*/
-    /*.second{*/
-    /*    display: flex;*/
-    /*    width: 20%;*/
-    /*    height: 300px;*/
-
-
-    /*}*/
-    /*.first{*/
-    /*    display: flex;*/
-    /*    width: 20%;*/
-    /*    height: 300px;*/
-    /*}*/
     section {
         width: 100%;
         display: flex;
-        justify-content: space-between; /* Додаємо простір між елементами */
+        justify-content: space-between;
         align-items: center;
     }
     section>div {
