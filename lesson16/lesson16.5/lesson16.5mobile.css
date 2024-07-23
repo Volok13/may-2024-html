@@ -1,0 +1,15 @@
+@media screen and (min-width: 0) and (max-width: 480px){
+    div{
+        margin: 20px 20px;
+        gap: 20px;
+        display: grid;
+        height: 100vh;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+    "header header"
+    "main main"
+    "main main"
+    "section section";
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (min-width: 0) and (max-width: 480px){
+    div {
+        margin: 10px 10px;
+        gap: 20px;
+        display: grid;
+        height: 100vh;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+    "header header header"
+    "main main main"
+    "main main main"
+    "aside address footer"
+    "section section section";
+    }
+}
